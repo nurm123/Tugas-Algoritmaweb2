@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Nilai Akhir Mahasiswa</title>
+
+</head>
+<body>
+	<h1>PERHITUNGAN NILAI AKHIR MAHASISWA <br/> STMIK INSAN PEMBANGUNAN TELUKNAGA</h1>
+
+	<form action="hasil_uts.php" method="POST">
+		<table>
+			<label>
+				<tr>
+					<td>Nama Mahasiswa</td>
+					<td>:</td>
+					<td><input type="text" name="nama" placeholder="masukkan nama"></td>
+				</tr>
+				<tr>
+					<td>NIM Mahasiswa</td>
+					<td>:</td>
+					<td><input type="text" name="nim" placeholder="masukkan nim"></td>
+				</tr>
+				<tr>
+					<td>Mata Kuliah</td>
+					<td>:</td>
+					<td><input type="text" name="matkul" placeholder="matakul"></td>
+				</tr>
+				<tr>
+					<td>Nilai Kehadiaran</td>
+					<td>:</td>
+					<td><input type="number" name="nilai_absen" placeholder="nilai hadir"></td>
+				</tr>
+				<tr>
+					<td>Nilai Etika</td>
+					<td>:</td>
+					<td><input type="number" name="nilai_etika" placeholder="nilai etika"></td>
+				</tr>
+				<tr>
+					<td>Nilai Tugas</td>
+					<td>:</td>
+					<td><input type="number" name="nilai_tugas" placeholder="nilai tugas"></td>
+				</tr>
+				<tr>
+					<td>Nilai UTS</td>
+					<td>:</td>
+					<td><input type="number" name="nilai_uts" placeholder="nilai uts"></td>
+				</tr>
+				<tr>
+					<td>Nilai UAS</td>
+					<td>:</td>
+					<td><input type="number" name="nilai_uas" placeholder="nilai uas"></td>
+				</tr>
+			</label>
+		</table>
+					<button type="submit" name="submit">Hitung Nilai</button>
+	</form>
+</body>
+</html>
